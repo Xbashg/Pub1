@@ -1,13 +1,17 @@
-const Discord = require ("discord.js");
+const Discord = require("discord.js");
 
 exports.run = (client, message) => {
+  const EmbedPinCode = new Discord.MessageEmbed()
 
-const EmbedPinCode = new Discord.MessageEmbed()
-
-.setColor("RANDOM")
-.setTitle("**▬▬▬▬▬▬[** ©️ **» CAPTAN Bot** ©️ **]▬▬▬▬▬▬**  **  **Prefixim: `-`")
-.setThumbnail("https://cdn.discordapp.com/emojis/770265448892858368.gif?v=1")
-.setDescription(`
+    .setColor("RANDOM")
+    .setTitle(
+      "**▬▬▬▬▬▬[** ©️ **» Narcos Bot** ©️ **]▬▬▬▬▬▬**  **  **Prefixim: `-`"
+    )
+    .setThumbnail(
+      "https://cdn.discordapp.com/emojis/770265448892858368.gif?v=1"
+    )
+    .setDescription(
+      `
 
 **▬▬▬▬▬▬▬[** :closed_lock_with_key:  **Komut Listesi**   :closed_lock_with_key: **]▬▬▬▬▬▬**
 
@@ -21,30 +25,29 @@ const EmbedPinCode = new Discord.MessageEmbed()
 **▬▬▬▬▬▬▬[** :gear:  **Bilgilendirme**  :gear: **]▬▬▬▬▬▬**
 
 > :dizzy: **Fikirleriniz** **değerlidir, Belirtmekten asla çekinmeyin!**
-> :open_file_folder: **Botun Destek Sunucusuna Gelmek İçin [Tıkla!](https://discord.gg/qzHTkhjQgT)**
+> :open_file_folder: **Botun Destek Sunucusuna Gelmek İçin [Tıkla!](https://discord.gg/NMnPUjK)**
 > :round_pushpin: **Komut hakkında detaylı bilgi için: -yardım**
 > :bulb: **Discord Js Sürümü: 12.4.0**
 
 **» Bağlantılar** 
-**[Destek Sunucusu](https://discord.gg/qzHTkhjQgT)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=771311130890993680&permissions=8&scope=bot)** **•** **[Web-Site]( https://hammerhead-spark-sheet.glitch.me/index.html)**
-`)
- 
-.setFooter(client.user.username + "", client.user.avatarURL)
-.setTimestamp();
+**[Destek Sunucusu](https://discord.gg/NMnPUjK)** **•** **[Botun Davet Linki](https://discord.gg/NMnPUjK)** **•** **[Web-Site]( https://discord.gg/NMnPUjK)**
+`
+    )
 
-return message.channel.send(EmbedPinCode)
-.then; 
+    .setFooter(client.user.username + "", client.user.avatarURL)
+    .setTimestamp();
 
+  return message.channel.send(EmbedPinCode).then;
 };
 exports.conf = {
-    enabled: true, 
-    guildOnly: false, 
-    aliases: [], 
-    permLevel: 0 
+  enabled: true,
+  guildOnly: false,
+  aliases: [],
+  permLevel: 0
 };
-  
-  exports.help = {
-    name: 'yardım', 
-    description: 'Botun Komut Listesini Gösterir!',
-    usage: '-yardım'
+
+exports.help = {
+  name: "yardım",
+  description: "Botun Komut Listesini Gösterir!",
+  usage: "-yardım"
 };

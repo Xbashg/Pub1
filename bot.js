@@ -8,7 +8,7 @@ const ayarlar=require("./ayarlar.json");
 const express = require('express');
 /////
 const app = express()
-app.get('/', (req, res) => res.send("Bot Aktif | Discord = https://discord.gg/Kachy2D"))
+app.get('/', (req, res) => res.send("Bot Aktif | Discord = https://discord.gg/NMnPUjK"))
 app.listen(process.env.PORT, () => console.log('Port ayarlandı: ' + process.env.PORT))
 //////////////////
 
