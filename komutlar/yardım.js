@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 
 exports.run = (client, message) => {
-  const EmbedPinCode = new Discord.MessageEmbed()
+  const EmbedNarcosCode = new Discord.MessageEmbed()
 
     .setColor("RANDOM")
     .setTitle(
@@ -37,7 +37,7 @@ exports.run = (client, message) => {
     .setFooter(client.user.username + "", client.user.avatarURL)
     .setTimestamp();
 
-  return message.channel.send(EmbedPinCode).then;
+  return message.channel.send(EmbedNarcosCode).then;
 };
 exports.conf = {
   enabled: true,
