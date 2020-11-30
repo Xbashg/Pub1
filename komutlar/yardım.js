@@ -25,12 +25,12 @@ exports.run = (client, message) => {
 **▬▬▬▬▬▬▬[** :gear:  **Bilgilendirme**  :gear: **]▬▬▬▬▬▬**
 
 > :dizzy: **Fikirleriniz** **değerlidir, Belirtmekten asla çekinmeyin!**
-> :open_file_folder: **Botun Destek Sunucusuna Gelmek İçin [Tıkla!](https://discord.gg/NMnPUjK)**
+> :open_file_folder: **Botun Destek Sunucusuna Gelmek İçin [Tıkla!]()**
 > :round_pushpin: **Komut hakkında detaylı bilgi için: -yardım**
 > :bulb: **Discord Js Sürümü: 12.4.0**
 
 **» Bağlantılar** 
-**[Destek Sunucusu](https://discord.gg/NMnPUjK)** **•** **[Botun Davet Linki](https://discord.gg/NMnPUjK)** **•** **[Web-Site]( https://discord.gg/NMnPUjK)**
+**[Destek Sunucusu]()** **•** **[Botun Davet Linki]()** **•** **[Web-Site]( )**
 `
     )
 
